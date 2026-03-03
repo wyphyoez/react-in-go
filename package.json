@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node esbuild.mjs && go run main.go"
+		"build": "node esbuild.mjs",
+		"start": "npm run build && go run main.go"
 	},
 	"keywords": [],
 	"author": "",
